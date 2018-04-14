@@ -10,6 +10,10 @@
                     <span>duo</span>chrome
                 </h1>
             </a>
+
+            {% if site.header-flair and page.color %}
+                <span id="color-flair">(#{{ page.color }})</span>
+            {% endif %}
         </span>
 
         <span id="nav-links" class="absolute right bottom">
