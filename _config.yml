@@ -46,4 +46,4 @@ reverse: false
 header-color: true
 title-color: false
 listing-color: false
-color-flairs: true
+header-flair: true
