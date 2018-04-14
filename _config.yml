@@ -1,14 +1,20 @@
 # Site settings
-title: Monochrome | A minimal, responsive Jekyll blog theme
-description: "A minimal, responsive, ready to use blog template, built with Jekyll."
-url: "http://www.dyutibarma.github.io/monochrome"
-author:
-  name: "The Review Index"
-  email: "dyutibarma@gmail.com"
-  url: "https://thereviewindex.com"
+title: Duochrome | A minimal, Monochrome theme with a splash of color
+description: "A minimal, Monochrome Jekyll theme with a splash of color."
+url: "http://deadPix3l.github.io/duochrome"
+authors:
+  duochrome:
+    name: "Skyler Curtis"
+    email: "skylerr.curtis@gmail.com"
+    url: "https://deadPix3l.github.com"
+
+  monochrome:
+    name: "The Review Index"
+    email: "dyutibarma@gmail.com"
+    url: "https://thereviewindex.com"
 
 # Build settings
-baseurl: /monochrome # Change this to your relative path (ex: /blog/), or leave just a /
+baseurl: /duochrome # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site
@@ -35,3 +41,9 @@ version: "1.0.0"
 
 # Options
 reverse: false
+
+#color options:
+header-color: true
+title-color: false
+listing-color: false
+color-flairs: true
