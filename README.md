@@ -1,8 +1,23 @@
 ## About
-Monochrome is a minimal, responsive, ready to use Jekyll theme for blogging. [Demo](https://dyutibarma.github.io/monochrome/)
-(Built on top of Emerald Jekyll theme)
+Duochrome is a minimal jekyll theme with just a splash of color.
+(Based on the Monochrome Jekyll theme)
 
-## Features
+Some websites can be too cluttered with style, ads, and "features" that
+it can feel annoying to use. Duochrome takes all the beautiful simplcity
+of Monochrome and adds just a little bit of color and fun, while still
+keeping things minimal and easy on the eyes.
+
+## Duochrome's Additional Features
+
+- Cleaned up code. removed some clunky "if this, else that" portions
+that werent needed
+- Removed custom headers. Monochrome had you set an option and edit a
+seperate file called "header-custom.html" or "footer-custom.html." It
+was tedious and bothersome. Now if you need to edit the header, just
+change "header.html", simple.
+- Added several options to color up your posts just a little.
+
+## Monochrome's Features
 
 - Completely responsive and mobile first
 - Clean SEO friendly URLs, auto-generated from post title (no messy dates in the url)
@@ -34,7 +49,7 @@ sudo apt-get install ruby2.2-dev
 - [Jekyll documentation](http://jekyllrb.com)   
 
 
-## Install Monochrome dependencies
+## Install Duochrome dependencies
 
 ```
 sudo gem install jekyll-paginate
@@ -42,7 +57,7 @@ sudo gem install jekyll-sitemap
 
 ```
 
-## Get Started with Monochrome
+## Get Started with Duochrome
 
 ### Option 1 
 
@@ -52,35 +67,18 @@ sudo gem install jekyll-sitemap
 - Run 'jekyll serve' and open browser to 'localhost:4000/blog/' to see your changes
 - (Optional) Host with github pages
 
-Note: If you fork the repository, your version of the repository will not be searchable. If you want searchability, we suggest you use the next option.
-
-
-### Option 2
-
-- Simply download the .zip folder from the repository github page
-- Extract the contents from the .zip folder into your local folder
-- cd into monochrome/
-- Run 'jekyll serve' and open browser to 'localhost:4000/blog/' to see your changes
-- Create a repository in github and push the files
-- (Optional) Host with github pages
 
 ## Write a Post
 
 - cd into  ``_posts/``
 - create new file with format yyyy-mm-dd-title-of-post.md
+- (Optional) choose a color (rgb hex value, without the #, eg 2036a4) 
 - add title/description (refer any of the test posts)
 - add markdown and save
-
 
 ## Customization Options
 
 You can customize this layout using instructions below. 
-
-### Header/Footer/Navigation
-
-Set a custom header tag by setting the related option in the ``_config.yml`` file to "true". Then insert your custom code into the ``header-custom.html`` file.
-In the same way, you can customize the footer of the navigation menu, by setting to "true" the related option and put your code into the ``nav-footer-custom.html`` file.
-Moreover select a reverse option that allows to move the navigation menu to the left side, by setting it to "true".
 
 ### Colors
 
@@ -118,12 +116,13 @@ To maintain the vertical rhythm, it has been applied a **Typographic scale** as 
 ## Todo
 
 - Google Analytics integration
-- Footer to stick to bottom even when content is less
 
-## Author
+## Authors
 
-### TheReviewIndex
+### Duochrome
+- Skyler Curtis
 
+### Monochrome: TheReviewIndex
 - Dyuti Barma
 - Web site: [Review Aggregation and Summary Site for India - TheReviewIndex.com](https://thereviewindex.com)
 

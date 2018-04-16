@@ -1,5 +1,6 @@
 ## Released under MIT License
 
+Copyright (c) 2018 DeadPix3l (Skyler Curtis)
 Copyright (c) 2017 The Review Index
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
