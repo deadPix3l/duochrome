@@ -1,3 +1,13 @@
 /*- Custom style -*/
 
 // -- Put custom style under this point -- //
+
+.highligher-rouge {
+    border-radius: .3em;
+    padding: 0 .3em;
+}
+
+.highligher-rouge:hover {
+    color: #FFF;
+    background-color: #7AF;
+}
